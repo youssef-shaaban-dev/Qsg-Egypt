@@ -4,7 +4,7 @@ export function ArabicNumber({text}:{text:string}){
 
   const toArabicDigits = (str: string) => {
     if (!str) return "";
-    return str.replace(/(ISO\s*\d+)|(\d)/gi, (match, isoPart, digit) => {
+    return str.replace(/(ISO\s*\d+)|(\d)/gi, ( isoPart, digit) => {
       if (isoPart) {
         return isoPart;
       }
