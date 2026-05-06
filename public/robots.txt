@@ -1,0 +1,139 @@
+User-agent: Googlebot
+
+Allow: /
+
+Disallow: /cgi-bin/
+
+Disallow: /xmlrpc.php
+
+Disallow: /readme.html
+
+Disallow: /license.txt
+
+Disallow: /?s=
+
+Disallow: /?attachment_id=
+
+Disallow: /*?*replytocom=*
+
+Disallow: */trackback/
+
+Disallow: */embed/
+
+Disallow: */feed/
+
+
+
+sitemap: https://qsgegypt.net/sitemap.xml
+
+
+
+User-agent: Bingbot
+
+Allow: /
+
+Disallow: /cgi-bin/
+
+Disallow: /xmlrpc.php
+
+Disallow: /readme.html
+
+Disallow: /license.txt
+
+Disallow: /?s=
+
+Disallow: /?attachment_id=
+
+Disallow: /*?*replytocom=*
+
+Disallow: */trackback/
+
+Disallow: */embed/
+
+Disallow: */feed/
+
+
+
+sitemap: https://qsgegypt.net/sitemap.xml
+
+
+
+User-agent: facebookexternalhit
+
+User-agent: Facebot
+
+Allow: /
+
+
+
+
+
+# --- AI Crawler Rules ---
+
+
+
+# Allow Google's AI crawler for snippets & Gemini
+
+User-agent: Google-Extended
+
+Allow: /
+
+
+
+# Allow Perplexity AI
+
+User-agent: PerplexityBot
+
+Allow: /
+
+
+
+# Claude by Anthropic (placeholder)
+
+User-agent: ClaudeBot
+
+Allow: /
+
+
+
+# You.com bot (if used)
+
+User-agent: YouBot
+
+Allow: /
+
+
+
+# OpenAI (ChatGPT) â€“ Placeholder
+
+User-agent: ChatGPT-User
+
+Allow: /
+
+
+
+# Common AI crawlers catch-all
+
+User-agent: ai-crawler
+
+Allow: /
+
+
+
+# --- SEO Tools Bots ---
+
+
+
+# Allow Ahrefs bot
+
+User-agent: AhrefsBot
+
+Allow: /
+
+
+
+# Allow SEMrush bot
+
+User-agent: SemrushBot
+
+Allow: /

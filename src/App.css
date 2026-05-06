@@ -1,0 +1,103 @@
+
+@font-face {
+  font-family: "Bookantiqua";
+  src: url("/src/assets/fonts/bookantiqua.ttf");
+}
+
+@import "tailwindcss";
+
+@config "../tailwind.config.ts";
+
+@theme {
+  /* Light mode colors */
+  --dark-red: #922024;
+  --gold: #4f573b;
+  --light-navy: #2C3A5A;
+  --off-white: #F8F9FA;
+  --medium-gray: #6C757D;
+  --white: #FFFFFF;
+  --light-red: #D46062;
+  --navy: "#1E2A4A";
+
+}
+
+@layer utilities {
+  html {
+    scroll-behavior: smooth;
+  }
+
+}
+
+body {
+  @apply font-sans;
+}
+
+
+html[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+html[dir="ltr"] {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Custom Swiper pagination */
+.swiper-pagination-bullet {
+  background: #c2a44f; /* gold */
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+.swiper-pagination-bullet-active {
+  background: #0a2540; /* navy */
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.ltr-arrow-list li {
+  position: relative;
+  padding-left: 1.5em; /* Space for arrow */
+}
+
+.ltr-arrow-list li::before {
+  content: "➤"; /* Unicode arrow */
+  position: absolute;
+  left: 0;
+  /* color: #007BFF; Arrow color */
+}
+
+.rtl-arrow-list li {
+  position: relative;
+  padding-right: 1.5em; /* Space for arrow */
+}
+
+.rtl-arrow-list li::before {
+  content: "➤"; /* Unicode arrow */
+  transform: rotate(180deg);
+  position: absolute;
+  right: 0;
+  /* color: #007BFF; Arrow color */
+}
+
+.client-slider .slick-list .slick-track {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;   /* vertical center */
+}
+
+.client-slider .slide-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;   /* vertical center */
+  height: 100%;
+  padding: 10px 0; /* optional */
+}
+
+
+.decimal-arabic{
+  list-style: arabic-indic !important;
+}
+
+.list-square{
+  list-style: square !important;
+}

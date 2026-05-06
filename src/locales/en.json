@@ -1,0 +1,483 @@
+{
+  "about": {
+    "chairmanMessage": "Chairman’s Message",
+    "chairmanMessageHeading": "Message from the Chairman",
+    "chairmanIntroduction": "Chairman introduction and message",
+    "chairmanPortrait": "Portrait of Eng. Ashraf Yassin",
+    "chairmanAlt": "Eng. Ashraf Yassin, Chairman and Managing Director",
+    "paragraph1": "At QSG, we are proud of the diversity of our business portfolio, the global reach of our operations, and—most importantly—the strength, capabilities, and experience of our exceptional team.",
+    "paragraph2": "For more than <b>29 years</b>, our Group has built a reputation as a trusted leader in independent third-party inspection (TPI), trade conformity assessment, banking inspection services, and specialized management consulting.",
+    "paragraph3": "Our people’s passion, dedication, and expertise, guided by visionary leadership, have enabled us to consistently deliver excellence and exceed our clients’ expectations.",
+    "paragraph4": "Leading this Group is both an honor and a responsibility. Together, we continue to build on our legacy, embrace innovation, and drive sustainable growth for the future.",
+    "chairmanSignature": "Chairman signature",
+    "chairmanName": "Eng. Ashraf Yassin",
+    "chairmanTitle": "Chairman & Managing Director",
+    "quickLinksHeading": "Quick Links About QSG",
+    "readMore": "Read More..",
+    "navigateTo": "Navigate to {{title}}",
+    "aboutCards": {
+      "company": "The Company",
+      "team": "Our Team",
+      "globalReps": "Our Global Representatives",
+      "awards": "Awards & Appreciation",
+      "qhse": "QHSE Policies and CSR",
+      "iso": "ISO Certificates"
+    }
+  },
+  "banner": {
+    "ariaLabel": "QSG introduction slides",
+    "navigation": "Banner navigation",
+    "slide": "Slide",
+    "of": "of",
+    "goToSlide": "Go to slide",
+    "slide1": {
+      "title": "Quality Services Group (QSG) <br /> <span class='text-sm'>Since 1997</span>",
+      "buttonText": "About Us"
+    }
+  },
+  "clients": {
+    "heading": "Major Clients",
+    "description": "our clients are the foundation of our success.",
+    "ariaLabel": "Major Clients Section",
+    "carouselAria": "Client logos carousel",
+    "clientLogo": "Client logo"
+  },
+  "majorProjects": {
+    "heading": "Some of <br /> Our Major Projects",
+    "readMore": "Read more about our major projects"
+  },
+  "services": {
+    "heading": "Our Services",
+    "learnMore": "Learn More",
+    "service1": {
+      "title": "Inspection & Expediting",
+      "description": "Professional inspection and expediting services."
+    },
+    "service2": {
+      "title": "Assets Valuation & Surveying",
+      "description": "Valuation and surveying of assets."
+    },
+    "service3": {
+      "title": "Oil, Gas & Power (ASME & TPI)",
+      "description": "Oil, Gas & Power services."
+    },
+    "service4": {
+      "title": "Feasibility Studies & Consulting Services",
+      "description": "Feasibility studies and consulting services."
+    }
+  },
+  "industries": {
+    "hospitals": "Hospitals",
+    "education": "Educational institutions",
+    "touristicVillages": "Touristic villages",
+    "hotels": "Hotels",
+    "petroleum": "Petroleum companies",
+    "contracting": "General Contracting",
+    "land": "Cultivated Land",
+    "trucking": "Trucking and warehousing",
+    "wholesale": "Wholesale trade",
+    "wholesaleDurable": "Wholesale trade – durable goods",
+    "printing": "Printing and Publishing",
+    "autoService": "Automotive service stations",
+    "autoDealers": "Automotive dealers",
+    "restaurants": "Restaurants",
+    "amusement": "Amusement and recreation parks",
+    "textiles": "Textiles",
+    "paperProducts": "Paper Products",
+    "chemicals": "Chemicals",
+    "foodManufacturing": "Food Manufacturing",
+    "woodWorking": "Wood Working",
+    "nonMetallicMaterials": "Non-Metallic Materials",
+    "electronics": "Electronics",
+    "pipelines": "Pipelines",
+    "buildingMaterials": "Building Materials",
+    "rubberPlastic": "Rubber and Plastic Products",
+    "leatherProducts": "Leather Products",
+    "stoneClayGlass": "Stone, Clay and Glass Products",
+    "primaryMetals": "Primary Metal Industries",
+    "fabricatedMetals": "Fabricated Metal Products",
+    "homeAppliances": "Home Appliances"
+  },
+  "aboutCards": {
+    "company": "The Company",
+    "team": "Our Team",
+    "globalReps": "Our Global Representatives",
+    "awards": "Awards & Appreciation",
+    "qhse": "QHSE Policies and CSR",
+    "iso": "ISO Certificates"
+  },
+  "accreditation": {
+    "title": "Accreditations, Registrations and Agency Contracts",
+    "listAria": "List of accreditations, registrations and agency contracts",
+    "detail1": "The Company is registered in the <b>Central Bank of Egypt's</b> list of approved firms in the asset valuation field.<br/><b>(land and buildings - machinery and equipment - goods)</b> No. (5).",
+    "detail2": "Registered with the <b>Financial Regulatory Authority (FRA)</b> as <b>Real Estate Valuation Experts</b> No. (10).",
+    "detail3": "Registered with the <b>Financial Regulatory Authority (FRA)</b> as <b>Asset Revaluation Experts</b> No. (8).",
+    "detail4": "Registered with <b>the National Organization for Potable Water and Sanitary Drainage (NOPWASD)</b> – Department of Testing and Industry Control since 1998.",
+    "detail5": "Holds the <b>ISO 9001:2015</b> certificate since 1999 and is renewed periodically.",
+    "detail6": "The company's experts hold the <b>'LEEA'</b> certification – <b>Lifting Equipment Engineers Association.</b>",
+    "detail7": "The company’s experts hold the <b>\"ASME\"</b> (Authorized Inspection Supervisor).",
+    "detail8": "The Company is a member of the <b>American Society for Testing and Materials (ASTM).</b>",
+    "detail9": "Holds an authorized agency contract with <b>Arotec Inspection GmbH.</b>",
+    "detail10": "A sole and exclusive agent for Marketing and Sale of inspection and Consultancy services in UAE to <b>Dome Oilfield Engineering and Services LLC.</b>",
+    "detail11":"A cooperation agreement is in place with <b>ValuStrat Consulting FZCO – UAE</b> to provide asset valuation and appraisal services "
+  },
+  "aboutQSG": {
+    "heading": "QUALITY SERVICES GROUP (QSG)",
+    "description1": "A private Egyptian Joint Stock company established in 1997 with a current paid in capital of EGP 4 million, and is wholly owned and operated by Egyptian nationals.",
+    "description2": "The company’s scope of work includes the following activities:",
+    "activities": [
+      "Inspection & Expediting Services",
+      "Assets Valuation & Surveying",
+      "Oil, Gas, & Power Services (ASME & TPI)",
+      "Feasibility Studies & Consulting Services"
+    ],
+    "description3": "To carry out its work, QSG relies on a selected group of experts with extensive technical expertise, gained through broad experience inside Egypt and internationally.",
+    "description4": "The company holds the ISO 9001 certificate since 1999 (currently ISO 9001:2015) and is renewed periodically, providing evidence of our ongoing conformity to quality management system requirements."
+  },
+  "company": {
+    "title": "The Company",
+    "overview": "The company's workforce includes 32 experts, consultants, and specialists at the head office in Cairo and the Alexandria branch.",
+    "missionTitle": "Our Mission",
+    "mission": "To provide our clients with the highest level of performance, quality, and outstanding services, to fulfill their expectations and guarantee their satisfaction.",
+    "workMethodologyTitle": "Our Work Methodology",
+    "workMethodology": [
+      "Full commitment to international professional standards.",
+      "Providing continuous training for our team to enhance their technical and managerial skills.",
+      "Encouraging and motivating our staff to foster creativity, innovation, and teamwork."
+    ],
+    "objectivesTitle": "Our Objectives",
+    "objectives": "To achieve a strong presence in the Egyptian and international markets as a leading Egyptian company providing third-party services in site surveys, inspection, asset valuation, and consulting services.",
+    "achievementsTitle": "This is achieved by",
+    "achievements": [
+      "Obtaining international accreditation for asset valuation activities.",
+      "Developing solid relations with our agents worldwide.",
+      "Enhancing performance by leveraging modern technologies.",
+      "Providing ASME services in Egypt and across the globe."
+    ],
+    "isoImageAlt": "ISO certification at the company office"
+  },
+  "globalReach": {
+    "title": "Global Reach and Network",
+    "alt": "QSG Global Reach and Network"
+  },
+  "ashrafHero": {
+    "name": "Eng. Ashraf Yassin",
+    "position": "Chairman and Managing Director",
+    "alt": "Portrait of Eng. Ashraf Yassin, Chairman and Managing Director",
+    "education": "B.Sc. and M.Sc. degree in Production Engineering, specializing in Industrial Measurements and Inspection. Extensive leadership background as Chairperson with a proven track record of success in both:",
+    "experienceLabel": "Eng. Ashraf Yassin professional experience",
+    "experience": [
+      "<span class='text-dark-red'>1. <b>Crude Oil Production</b></span> – covering production planning, marine terminal management and operations, crude oil transportation, storage, and export measurement. Experience includes more than <b>23 years</b> with the ADNOC Group (ADCO) in the UAE and <b>4 years</b> with SUMED Pipelines in Egypt.",
+      "<span class='text-dark-red'><b>2. Inspection, Asset Valuation</b></span>, <b>Surveying</b> and <b>Consultancy</b> – Founder and Managing Director for <b>28 years</b> of <b>Quality Services Group (QSG)</b>, a leading Egyptian private company established in 1997."
+    ],
+    "expertise": "Areas of expertise include management, negotiation, operational management, strategic planning, business strategy, and business development, supported by a strong history of driving operational performance and sustainable expansion."
+  },
+  "aboutUs": "About Us",
+  "ourTeam": "Our Team",
+  "teamExperience": "The group’s technical and managerial years of experience",
+  "teamSubExperience": "QSG has a total of",
+  "teamExperienceYears":"Years of Experience",
+  "teamPower": "the team power",
+  "globalRepresentatives": "Our Global Representatives",
+  "globalReachAndNetwork": "Global Reach and Network",
+  "globalReachImageAlt": "QSG Global Reach and Network",
+  "home": "Home",
+  "accreditations": "Accreditations",
+  "ourServices": "Our Services",
+  "assetsValuation": "Assets Valuation & Surveying",
+  "assetsValuationTitle": "Assets Valuation and Surveying",
+  "assetsValuationIntro1": "In the process of valuation, we estimate the hypothetical price or cash equivalent on a specific date for the asset to be valued, based on specific criteria and standards. set by Central Bank of Egypt and the Financial Regulatory Authority .",
+  "assetsValuationIntro2": "It includes specifying the type of value required (market value, investment value, rental value, lease, etc.), the purpose of the valuation and the report, as well as the type of asset, its classification, and the benefits of its use.",
+  "assetsValuationIntro3": "This requires familiarity with market mechanisms, and consideration of economic and political circumstances.",
+  "assetsValuationIntro4": "Assets Valuation process is carried out by a team of highly skilled professionals with expertise in the various conditions affecting each type of property, considering all elements that may affect the valuation outcome.",
+  "purposeOfValuation": "Purpose of Valuation",
+  "valuationPurpose": {
+    "secureBanks": "Securing banks credit facilities.",
+    "legalStatus": "Changing the legal form or status of companies.",
+    "corporateRestructuring": "Corporate restructuring through mergers or demergers.",
+    "liquidation": "Liquidation procedures.",
+    "mortgage": "Mortgage.",
+    "insurance": "Insurance."
+  },
+  "assetsValuation.realEstate": "Real Estate",
+  "assetsValuation.plant": "Plant (machinery & equipment)",
+  "assetsValuation.includes": "Assets valuation service includes but is not limited to:",
+  "assetsValuation.land": "Land",
+  "assetsValuation.buildings": "Buildings",
+  "assetsValuation.machines": "Machines and Equipment",
+  "assetsValuation.goods": "Goods (Raw material, Semi-finished, and finished products)",
+  "assetsValuation.vehicles": "Vehicles",
+  "assetsValuation.furniture": "Furniture",
+  "assetsValuation.oilRigs": "Oil Well drilling rigs (onshore & offshore)",
+  "projectsFollowUp": "In addition to projects progress follow up.",
+  "assetsValuation.rawMaterial": "Raw material",
+  "assetsValuation.rig": "Rig",
+  "businessFields": "Business fields",
+  "variousIndustries": "Various industries such as:",
+  "integratedProjects": "Integrated projects valuations conducted by the group include:",
+  "integratedProjects.transport": "Means of transportation including land, sea, air, etc.",
+  "integratedProjects.renewable": "Renewable energy projects",
+  "integratedProjects.oilGas": "Oil & gas projects",
+  "integratedProjects.rigs": "Various rig types (land, marine, petroleum)",
+  "integratedProjects.variousRigs": "Several types of rigs including land, marine and petroleum.",
+  "integratedProjects.infrastructure": "Infrastructure projects",
+  "integratedProjects.bankAssets": "Valuation of bank assets",
+  "integratedProjects.antiques": "Antiques, artifacts and rare art pieces.",
+  "assetsValuation.hotels": "Hotels",
+  "assetsValuation.renewableProjects": "Renewable Energy projects",
+  "totalAssets2023_2024": "The total valuated assets for the fiscal years 2023 / 2024",
+  "tailoredValuation": "Want a tailored valuation?",
+  "tailoredValuationDesc": "Contact us for an accurate, standards-based valuation report.",
+  "contactUs": "Contact Us",
+  "title": "404 - Page not found",
+  "description": "Sorry - the page you are looking for doesn't exist or has been moved.",
+  "goBack": "Go back",
+  "searchPlaceholder": "Search the site",
+  "search": "Search",
+  "errorCode": "Error code — 404",
+  "contact": "Contact us",
+  "hint": "If you typed the URL manually, check for typos or return home.",
+  "banks": "Banks",
+  "companies": "Companies",
+  "realEstate": "Leasing and Real Estate Companies",
+  "accounting": "Accounting and Consulting Services",
+  "certificatetitle": "Company Certificates",
+  "certificate": "Certificate {{number}}",
+  "footer": {
+    "services": {
+      "inspection": "Inspection & Expediting",
+      "valuation": "Assets Valuation & Surveying",
+      "oilGas": "Oil, Gas & Power (ASME & TPI)",
+      "feasibility": "Feasibility Studies & Consulting Services"
+    },
+    "company": {
+      "theCompany": "The Company",
+      "ourTeam": "Our Team",
+      "globalReps": "Our Global Representatives",
+      "accreditations": "Accreditations",
+      "majorClients": "Major Clients",
+      "contact": "Contact Us"
+    },
+    "offices": {
+      "cairo": {
+        "name": "Head Office",
+        "address": "4 A El-Saraya El-Kobra St. Garden City\n Cairo - Egypt"
+      },
+      "alex": {
+        "name": "Alexandria Office",
+        "address": "42 Abdel Latif Al Sufani St. Sidi Gaber\n Alexandria - Egypt"
+      }
+    },
+    "contact": {
+      "title": "Office Locations",
+      "tel": "Tel",
+      "email": "Email",
+      "cairo": {
+        "title": "Head Office",
+        "address": "4 A El-Saraya El-Kobra St.Garden City\n Cairo - Egypt"
+      },
+      "alex": {
+        "title": "Alexandria Office",
+        "address": "42 Abdel Latif Al Sufani St. Sidi Gaber\n Alexandria - Egypt"
+      }
+    }
+  },
+  "footerBottom": {
+    "social": {
+      "linkedin": "Visit QSG Egypt LinkedIn page (opens in a new tab)",
+      "facebook": "Visit QSG Egypt Facebook page (opens in a new tab)"
+    },
+    "copyright": "© {{year}} QSG Egypt | Website Development by",
+    "developer": "MRCO-Egypt",
+    "developerAria": "Visit MRCO Egypt website (opens in a new tab)"
+  },
+  "inspection": {
+  "breadcrumb": "Our Services",
+  "pageTitle": "Inspection & Expediting",
+  "intro": {
+    "p1": "The company delivers its inspection services through a team of highly qualified inspectors with extensive local and international technical expertise across various specializations. These professionals are considered a cornerstone in establishing client confidence and play a vital role in enhancing the company’s credibility and success both locally and internationally.",
+    "p2": "Inspection activities are conducted at suppliers’ facilities, ports of shipment (loading/unloading), or ports of arrival, to verify the conformity of goods with the contractual terms and specifications, as well as with the applicable national and international standards."
+  },
+  "process": {
+    "title": "Inspection process includes the following:",
+    "items": [
+      "Establish inspection procedure",
+      "Site visit",
+      "Visual inspection and checking commodities",
+      "Draw random samples (when needed)",
+      "Attending -as an eye witness- laboratory and performance tests (when required)",
+      "Review shipping marks",
+      "Checking weights and packing",
+      "Checking the loading process (if requested)"
+    ],
+    "note": "Finally Inspection certificates and reports are to be issued."
+  },
+  "exports": {
+    "title": "Inspection of exports and imports"
+  },
+  "engineering": {
+    "title": "1-Engineering inspection includes the following:",
+    "items": [
+      "Industrial raw materials",
+      "Pipelines and accessories",
+      "Electrical machinery and equipment",
+      "Mechanical and electromechanical equipment related to the construction and expansion of water pumping stations and wastewater treatment plants across industrial facilities worldwide.",
+      "Building material",
+      "Chemicals",
+      "Mobile equipment",
+      "Testing of lifting appliances including but not limited to:"
+    ],
+    "lifting": [
+      "Bridge Crane",
+      "Telescopic Crane",
+      "Pedestal Crane",
+      "Mobile Crane",
+      "Winches and Hoists",
+      "Lifting accessories"
+    ]
+  },
+  "food": {
+    "title": "2- Food Industry Inspection",
+    "items": [
+      "Grains",
+      "Oil and grease",
+      "Fresh fruits and vegetables",
+      "Frozen fruits and vegetables",
+      "Dairy products",
+      "Meat, poultry, and fish",
+      "Inspection of containers and ship holds before loading"
+    ]
+  },
+  "industrial": {
+    "title": "Inspection of Industrial, chemical, and petroleum production facilities:",
+    "p1": "Inspection is carried out visually, utilizing Non-Destructive Testing (NDT) techniques for support, aided by specialized equipment.",
+    "p2": "Inspection is primarily conducted to ensure the integrity and safe operation of equipment, for example within oil and gas processing/production facilities or petrochemical plants. This process is essential to mitigate risks associated with non-compliance or deviations from agreed and contracted requirements.",
+    "p3": "The duration of the inspection process varies depending on the scope and nature of the assignment ranging from one working day carried out by one inspector, to extended engagements handled by specialized inspection team, and is carried out as follows:",
+    "items": [
+      "Conduct a technical diagnosis of any observed problem",
+      "Provide technical recommendations",
+      "Develop appropriate repair procedures",
+      "Follow up the implementation of corrective action",
+      "If the corrective actions meet the required standards, the equipment is approved for further service"
+    ]
+  },
+  "ships": {
+    "title": "Ships Inspection:",
+    "checkingTitle": "Includes checking the validity of the following:",
+    "checking": [
+      "Holds/refrigerators of cargo ships",
+      "Cranes for loading goods",
+      "Containers",
+      "Ships before sailing"
+    ],
+    "additionalTitle": "In addition to:",
+    "additional": [
+      "Ship’s Drafts measurement to specify the weight of loaded goods",
+      "Calculating Loading/Unloading rates",
+      "Measuring ship’s tanks loaded with different kinds of fluids"
+    ]
+  },
+  "images": {
+    "general": "Valuation illustration",
+    "engineering": "Engineering inspection illustration",
+    "food": "Food inspection illustration",
+    "industrial": "Industrial inspection illustration",
+    "ships": "Ships inspection illustration"
+  }
+},
+"feasibility": {
+  "breadcrumb": "Our Services",
+  "pageTitle": "Feasibility Studies & Consulting Services",
+  "feasibility": {
+    "title": "1- Feasibility Studies",
+    "visionTitle": "Our Vision for Feasibility Studies:",
+    "paragraphs": [
+      "We are partners with our clients since the initiation of the idea to define a clear scope including technical and commercial details, then preparation of the project’s feasibility study all the way to a full project implementation.",
+      "During the consulting process, we adapt our methodology to fit our clients’ needs, creating a clear roadmap that ensures effectiveness and viability.",
+      "Our consulting services for feasibility studies are provided by experienced specialists who offer a commercially and technically oriented advice on overall project feasibility.",
+      "We carry out the process with the assistance of technical engineering experts, project managers, sales specialists, and financial analysts with expertise across various fields."
+    ],
+    "examplesTitle": "Examples of Feasibility studies conducted by the company for various projects",
+    "examples": {
+      "industrial": {
+        "title": "1- Industrial fields",
+        "items": [
+          "Plastic pipes",
+          "Electrical pipes",
+          "Tableware",
+          "Plastic bags, packaging straps, and handbags",
+          "Laboratory supplies (tubes for blood samples)",
+          "Sponge",
+          "Carton",
+          "Ready-Made Garments",
+          "Automatic water pump controller",
+          "Marble and granite",
+          "Metal furniture",
+          "Sanitary Ware",
+          "Cotton and fabric felt",
+          "Vegetable oil and sesame roasting"
+        ]
+      },
+      "agriculture": {
+        "title": "2- Agriculture and Aquaculture",
+        "items": [
+          "Fish Farming",
+          "Fruits and vegetables drying",
+          "Sorting, packaging, cooling, and freezing station"
+        ]
+      },
+      "feed": {
+        "title": "3- Feed industries and poultry production farms",
+        "items": [
+          "Poultry and fish feed",
+          "Layer poultry and broiler chicken farms"
+        ]
+      },
+      "services": {
+        "title": "4- Services and transportation projects",
+        "items": [
+          "Labor transportation contractor",
+          "Domestic travel"
+        ]
+      },
+      "misc": {
+        "title": "5- Miscellaneous",
+        "items": [
+          "Squash Courts",
+          "Land reclamation and cultivation"
+        ]
+      }
+    }
+  },
+  "consulting": {
+    "title": "2- Consulting Services",
+    "paragraphs": [
+      "QSG provides consultations and technical assistance through well selected specialists with wide technical and managerial experience.",
+      "We provide integrated services to meet our clients’ needs and to guarantee full participation and commitment."
+    ]
+  },
+  "images": {
+    "chart": "chart illustration",
+    "consulting": "Valuation illustration"
+  }
+},
+"oilGas": {
+  "breadcrumb": "Our Services",
+  "pageTitle": "Oil, Gas & Power (ASME & TPI)",
+  "introTitle": "We provide ASME services, in addition to the inspection on equipment of Oil, Gas and Petrochemical plants including the following:",
+  "items": [
+    "All types of vessels, columns, towers",
+    "Heat exchangers and storage tanks",
+    "Piping network and subsea pipelines",
+    "Steel structures including flare structures",
+    "Jetties and loading arms",
+    "Boilers and heaters",
+    "Lifting equipment",
+    "Over pressure protective devices (safety & relief valves)",
+    "Asset integrity risks and failure analysis",
+    "Corrosion control & inspection / condition assessment for static facilities"
+  ],
+  "imageAlt": "Oil and Gas inspection illustration"
+}
+
+}
