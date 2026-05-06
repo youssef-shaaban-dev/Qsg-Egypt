@@ -12,11 +12,28 @@ import { ArabicNumber } from "../utility/ArabicNumber";
 export default function ContactUs() {
 
   const {pathname} = useLocation();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  const currentLang = i18n.language === "ar" ? "ar" : "en";
 
   useEffect(() => {
     applyMeta(pathname)
   })
+
+  const getLocalizedMapUrl = (url: string) => {
+    if (!url) return url;
+    const updatedUrl = url
+      .replace(/!3m2!1s(en|ar)!2seg/, `!3m2!1s${currentLang}!2seg`)
+      .replace(/!5m2!1s(en|ar)!2seg/, `!5m2!1s${currentLang}!2seg`);
+    try {
+      const urlObj = new URL(updatedUrl);
+      urlObj.searchParams.set("hl", currentLang);
+      return urlObj.toString();
+    } catch (error) {
+      console.error("Error parsing map URL:", error);
+      return updatedUrl + `&hl=${currentLang}`;
+    }
+  };
 
   return (
     <>
@@ -76,7 +93,7 @@ export default function ContactUs() {
 
                 <div className="overflow-hidden rounded-lg shadow mt-4">
                   <iframe
-                    src={office.mapEmbedUrl}
+                    src={getLocalizedMapUrl(office.mapEmbedUrl)}
                     width="100%"
                     height="250"
                     loading="lazy"
