@@ -3,8 +3,14 @@ import { lang } from "./utility";
 export function ArabicNumber({text}:{text:string}){
 
   const toArabicDigits = (str: string) => {
-  return str.replace(/\d/g, (d) => "٠١٢٣٤٥٦٧٨٩"[Number(d)]);
-}
+    if (!str) return "";
+    return str.replace(/(ISO\s*\d+)|(\d)/gi, (match, isoPart, digit) => {
+      if (isoPart) {
+        return isoPart;
+      }
+      return "٠١٢٣٤٥٦٧٨٩"[Number(digit)];
+    });
+  };
 
   return <span dangerouslySetInnerHTML={{__html:lang === 'ar' ? toArabicDigits(text): text}} />
 }

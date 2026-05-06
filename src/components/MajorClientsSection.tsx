@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import type { Client, ClientInterface } from "../interfaces/Components";
 
 export default function MajorClientsSection({ clients, title }: ClientInterface) {
-  console.log(title);
   
   return (
     <section

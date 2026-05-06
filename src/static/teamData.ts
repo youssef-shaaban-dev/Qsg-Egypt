@@ -1,4 +1,4 @@
-import image1 from '../assets/Staff Photos/1.jpeg'
+import image1 from '../assets/Staff Photos/mona.webp'
 import image2 from '../assets/Staff Photos/2.png'
 import image3 from '../assets/Staff Photos/staff3.png'
 import image5 from '../assets/Staff Photos/5.png'
