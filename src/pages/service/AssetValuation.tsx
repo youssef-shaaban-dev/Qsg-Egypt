@@ -17,7 +17,7 @@ import ImageSection4 from "../../assets/assets/Picture4.png";
 import ImageSection5 from "../../assets/assets/Picture5.png";
 import ImageSection6 from "../../assets/assets/Picture6.png";
 import ImageSection7 from "../../assets/assets/3-en.png";
-import ImageSection7AR from "../../assets/assets/3-ar.jpeg";
+import ImageSection7AR from "../../assets/assets/3-ar.png";
 
 import { applyMeta, lang } from "../../utility/utility";
 import { industries, manufacturing } from "../../static/servicesData";
