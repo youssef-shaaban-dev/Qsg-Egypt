@@ -2,7 +2,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 import tailwindcss from '@tailwindcss/vite'
 import svgr from 'vite-plugin-svgr'
-import compression from 'vite-plugin-compression'
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer' // ✅ correct working plugin
 
 export default defineConfig({
@@ -11,19 +10,8 @@ export default defineConfig({
     tailwindcss(),
     svgr(),
 
-    // 🗜️ Gzip compression
-    compression({
-      algorithm: 'gzip',
-      ext: '.gz',
-      threshold: 10240,
-    }),
-
-    // 🔥 Brotli compression
-    compression({
-      algorithm: 'brotliCompress',
-      ext: '.br',
-      threshold: 10240,
-    }),
+    // Disabled vite-plugin-compression because cPanel/LiteSpeed handles this automatically 
+    // and pre-compressed files can cause binary decoding errors on some hosts.
 
     // 🖼️ Image optimization (modern + maintained)
     ViteImageOptimizer({
@@ -52,6 +40,9 @@ export default defineConfig({
           i18n: ['i18next', 'react-i18next', 'i18next-browser-languagedetector'],
           slick: ['react-slick', 'slick-carousel'],
         },
+        
+        entryFileNames: 'assets/[name]-v2-[hash].js',
+        chunkFileNames: 'assets/[name]-v2-[hash].js',
 
         assetFileNames: (assetInfo) => {
           const name = assetInfo.names[0] || 'asset' // fallback if undefined

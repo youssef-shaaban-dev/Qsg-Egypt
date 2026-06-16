@@ -4,6 +4,8 @@ import App from './App.tsx'
 import { BrowserRouter } from 'react-router-dom'
 import "./i18n";
 
+console.log("App loaded successfully - Cache cleared");
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>

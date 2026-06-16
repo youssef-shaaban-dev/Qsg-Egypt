@@ -25,6 +25,7 @@ import NotFound from './pages/NotFound';
 import DirectionHandler from './DirectionHandler';
 
 function App() {
+
   return (
     <>
       {/* Scroll to top on route change */}
