@@ -47,6 +47,10 @@ export default defineConfig({
       output: {
         manualChunks: {
           react: ['react', 'react-dom'],
+          framer: ['framer-motion'],
+          lucide: ['lucide-react'],
+          i18n: ['i18next', 'react-i18next', 'i18next-browser-languagedetector'],
+          slick: ['react-slick', 'slick-carousel'],
         },
 
         assetFileNames: (assetInfo) => {
