@@ -1,11 +1,11 @@
 import type { AboutCard } from "../interfaces/Components";
 
-import BGImage1 from '../assets/about/card.jpeg';
-import BGImage1AR from '../assets/about/card-ar.jpeg';
-import BGImage2 from '../assets/Banner/mds.jpg';
-import BGImage2AR from '../assets/Banner/mds-ar.png';
-import BGImage3 from '../assets/about/card-1.jpg';
-import BGImage3AR from '../assets/about/card-1 ar.png';
+import BGImage1 from '../assets/about/card.webp';
+import BGImage1AR from '../assets/about/card-ar.webp';
+import BGImage2 from '../assets/Banner/mds.webp';
+import BGImage2AR from '../assets/Banner/mds-ar.webp';
+import BGImage3 from '../assets/about/card-1.webp';
+import BGImage3AR from '../assets/about/card-1 ar.webp';
 
 export const aboutCards: AboutCard[] = [
   {
@@ -33,7 +33,7 @@ export const aboutCards: AboutCard[] = [
   // {
   //   key: "awards",
   //   title: "Awards & Appreciation",
-  //   image: "https://www.domeint.com/templates/project/image/ab42.jpg",
+  //   image: "https://www.domeint.com/templates/project/image/ab42.webp",
   //   link: "https://www.domeint.com/awards.html",
   // },
 ];

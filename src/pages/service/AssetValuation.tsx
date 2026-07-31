@@ -8,18 +8,18 @@ import { ImageBlock } from "../../components/service/ImageBlock";
 import BulletList from "../../components/service/BulletList";
 import SectionCard from "../../components/service/Section";
 
-import BGImage from "../../assets/Banner/6.png";
-import BGImageAR from "../../assets/Banner/6ar.jpg";
-import ImageSection1 from "../../assets/assets/Picture1.png";
-import ImageSection2 from "../../assets/assets/Picture2.png";
-import ImageSection3 from "../../assets/assets/Picture3.png";
-import ImageSection4 from "../../assets/assets/Picture4.png";
-import ImageSection5 from "../../assets/assets/Picture5.png";
-import ImageSection6 from "../../assets/assets/Picture6.png";
-import ImageSection7 from "../../assets/assets/3-en.png";
-import ImageSection7AR from "../../assets/assets/3-ar.png";
+import BGImage from "../../assets/Banner/6.webp";
+import BGImageAR from "../../assets/Banner/6ar.webp";
+import ImageSection1 from "../../assets/assets/Picture1.webp";
+import ImageSection2 from "../../assets/assets/Picture2.webp";
+import ImageSection3 from "../../assets/assets/Picture3.webp";
+import ImageSection4 from "../../assets/assets/Picture4.webp";
+import ImageSection5 from "../../assets/assets/Picture5.webp";
+import ImageSection6 from "../../assets/assets/Picture6.webp";
+import ImageSection7 from "../../assets/assets/3-en.webp";
+import ImageSection7AR from "../../assets/assets/3-ar.webp";
 
-import { applyMeta, lang } from "../../utility/utility";
+import { lang } from "../../utility/utility";
 import { industries, manufacturing } from "../../static/servicesData";
 
 
@@ -28,7 +28,6 @@ const AssetValuation: React.FC = () => {
   const { t } = useTranslation();
 
   useEffect(() => {
-    applyMeta(pathname);    
   }, [pathname]);
 
   return (

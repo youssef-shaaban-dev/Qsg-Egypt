@@ -1,13 +1,13 @@
 import PageBanner from "../../components/banner/PageBanner";
-import BGImage from '../../assets/Banner/mds.jpg';
-import BGImageAR from '../../assets/Banner/mds-ar.png';
+import BGImage from '../../assets/Banner/mds.webp';
+import BGImageAR from '../../assets/Banner/mds-ar.webp';
 import AboutQuickLinks from "./whoWeAre/AboutQuickLinks";
-import GlobalImage from "./../../assets/about/map.png";
-import GlobalImageAR from "./../../assets/about/map-ar.png";
+import GlobalImage from "./../../assets/about/map.webp";
+import GlobalImageAR from "./../../assets/about/map-ar.webp";
 import GlobalReach from "./global/GlobalReach";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import { applyMeta, lang } from "../../utility/utility";
+import { lang } from "../../utility/utility";
 import { useTranslation } from "react-i18next";
 
 function Global() {
@@ -16,7 +16,6 @@ function Global() {
 
 
   useEffect(() => {
-    applyMeta(pathname);
   }, [pathname]);
 
   return (

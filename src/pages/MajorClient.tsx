@@ -1,7 +1,7 @@
 // pages/MajorClient.tsx
 import PageBanner from '../components/banner/PageBanner';
-import BGImage from '../assets/about/client.png';
-import BGImageAR from '../assets/about/client-ar.png';
+import BGImage from '../assets/about/client.webp';
+import BGImageAR from '../assets/about/client-ar.webp';
 
 import MajorClientsSection from '../components/MajorClientsSection';
 import {
@@ -12,7 +12,7 @@ import {
 } from '../static/clientData';
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
-import { applyMeta, lang } from '../utility/utility';
+import { lang } from '../utility/utility';
 import { useTranslation } from 'react-i18next';
 
 export default function MajorClient() {
@@ -20,7 +20,6 @@ export default function MajorClient() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    applyMeta(pathname);
   }, [pathname]);
 
   return (

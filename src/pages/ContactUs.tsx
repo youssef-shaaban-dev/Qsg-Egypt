@@ -1,23 +1,21 @@
 import { motion } from "framer-motion";
 import { offices } from "../static/footerData";
 import PageBanner from "../components/banner/PageBanner";
-import BGImage from '../assets/Banner/Contact Us.png';
-import BGImageAR from '../assets/Banner/Contact Us- ar.jpg';
-import { useLocation } from "react-router-dom";
+import BGImage from '../assets/Banner/Contact Us.webp';
+import BGImageAR from '../assets/Banner/Contact Us- ar.webp';
 import { useEffect } from "react";
-import { applyMeta, lang } from "../utility/utility";
+import { lang } from "../utility/utility";
 import { useTranslation } from "react-i18next";
 import { ArabicNumber } from "../utility/ArabicNumber";
 
 export default function ContactUs() {
 
-  const {pathname} = useLocation();
+
   const { t, i18n } = useTranslation();
 
   const currentLang = i18n.language === "ar" ? "ar" : "en";
 
   useEffect(() => {
-    applyMeta(pathname)
   })
 
   const getLocalizedMapUrl = (url: string) => {

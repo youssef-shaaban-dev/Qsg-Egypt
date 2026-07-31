@@ -4,12 +4,12 @@ import { useTranslation } from "react-i18next";
 import PageBanner from "../../components/banner/PageBanner";
 import BulletList from "../../components/service/BulletList";
 import { ImageBlock } from "../../components/service/ImageBlock";
-import BGImage from '../../assets/Banner/8.png';
-import BGImageAR from '../../assets/Banner/8ar.jpg';
-import ImageSection2 from "../../assets/consulting/6.jpeg";
-import ImageSection3 from "../../assets/consulting/7.png";
-import ImageSection3Ar from "../../assets/consulting/7-ar.png";
-import { applyMeta, lang } from "../../utility/utility";
+import BGImage from '../../assets/Banner/8.webp';
+import BGImageAR from '../../assets/Banner/8ar.webp';
+import ImageSection2 from "../../assets/consulting/6.webp";
+import ImageSection3 from "../../assets/consulting/7.webp";
+import ImageSection3Ar from "../../assets/consulting/7-ar.webp";
+import { lang } from "../../utility/utility";
 import { ArabicNumber } from "../../utility/ArabicNumber";
 
 
@@ -47,7 +47,6 @@ const Feasibility: React.FC = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    applyMeta(pathname);
   }, [pathname]);
 
   // Get feasibility data from translation

@@ -1,9 +1,5 @@
 import type { Lang } from "../interfaces/Components";
 
-export function applyMeta() {
-  // Handled by react-helmet-async in BaseLayout
-  return;
-}
 
 const getLang = () => {
   if (location.pathname.startsWith("/ar")) {

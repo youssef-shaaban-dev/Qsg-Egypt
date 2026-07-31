@@ -11,13 +11,13 @@ import TeamPower from "../../components/aboutSection/TeamPower";
 
 import { teamData } from "../../static/teamData";
 
-import BGImage from '../../assets/about/team.png';
-import BGImageAR from '../../assets/about/team-ar.png';
+import BGImage from '../../assets/about/team.webp';
+import BGImageAR from '../../assets/about/team-ar.webp';
 
-import PowerImage from '../../assets/about/power.png';
-import PowerImageAR from '../../assets/about/Power-ar.png';
+import PowerImage from '../../assets/about/power.webp';
+import PowerImageAR from '../../assets/about/Power-ar.webp';
 
-import { applyMeta, lang } from "../../utility/utility";
+import { lang } from "../../utility/utility";
 
 
 const Teampage: React.FC = () => {
@@ -25,7 +25,6 @@ const Teampage: React.FC = () => {
   const { t } = useTranslation(); // استدعاء الترجمة
 
   useEffect(() => {
-    applyMeta(pathname);
   }, [pathname]);
 
   return (

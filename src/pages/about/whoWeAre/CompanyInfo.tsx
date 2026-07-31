@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import { Icon } from "@iconify/react";
 import { useTranslation } from "react-i18next";
-import ISO from '../../../assets/about/ISO.jpeg';
+import ISO from '../../../assets/about/ISO.webp';
 
 
 const CompanyInfo: React.FC = () => {

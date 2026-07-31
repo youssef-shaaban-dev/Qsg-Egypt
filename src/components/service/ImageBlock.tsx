@@ -6,7 +6,7 @@ import type { ImageBlockProps } from "../../interfaces/Components";
  * Simple wrapper for images — uses dummy image if src not provided.
  */
 export const ImageBlock: React.FC<ImageBlockProps> = ({
-  src = "/assets/dummy.jpg",
+  src = "/assets/dummy.webp",
   alt = "Illustration",
   className = "w-full h-48 object-cover rounded",
   title = null

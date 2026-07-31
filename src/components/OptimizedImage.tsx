@@ -48,7 +48,7 @@ const OptimizedImage: React.FC<OptimizedImageProps> = ({
           sizes={sizes}
         />
         <img
-          src={`${src}-1080.png`}
+          src={`${src}-1080.webp`}
           srcSet={`${src}-480.png 480w, ${src}-768.png 768w, ${src}-1080.png 1080w`}
           sizes={sizes}
           alt={alt}

@@ -1,25 +1,25 @@
 import type { Client } from "../interfaces/Components";
 
-const bankModules = import.meta.glob('../assets/Clients/b/*.png', {
+const bankModules = import.meta.glob('../assets/Clients/b/*.webp', {
   eager: true,
 }) as Record<string, { default: string }>;
 
-const accountingModules = import.meta.glob('../assets/Clients/a/*.png', {
+const accountingModules = import.meta.glob('../assets/Clients/a/*.webp', {
   eager: true,
 }) as Record<string, { default: string }>;
 
-const companyModules = import.meta.glob('../assets/Clients/c/*.png', {
+const companyModules = import.meta.glob('../assets/Clients/c/*.webp', {
   eager: true,
 }) as Record<string, { default: string }>;
 
-const reelModules = import.meta.glob('../assets/Clients/l/*.png', {
+const reelModules = import.meta.glob('../assets/Clients/l/*.webp', {
   eager: true,
 }) as Record<string, { default: string }>;
 
 const bankOrder = [
-  "a.png", "b.png", "c.png", "d.png", "f.png", "fa.png", "e.png", "h.png", "r.png", "p.png",
-  "j.png", "l.png", "t.png", "n.png", "o.png", "k.png", "q.png", "s.png", "g.png", "m.png",
-  "y.png", "v.png", "z.png", "i.png", "za.png", "zb.png", "w.png"
+  "a.webp", "b.webp", "c.webp", "d.webp", "f.webp", "fa.webp", "e.webp", "h.webp", "r.webp", "p.webp",
+  "j.webp", "l.webp", "t.webp", "n.webp", "o.webp", "k.webp", "q.webp", "s.webp", "g.webp", "m.webp",
+  "y.webp", "v.webp", "z.webp", "i.webp", "za.webp", "zb.webp", "w.webp"
 ];
 
 export const bankClients: Client[] = Object.entries(bankModules)

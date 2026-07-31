@@ -19,7 +19,7 @@ const MajorProjectsSection: React.FC = () => {
       className="relative bg-cover bg-center py-16 overflow-hidden"
       style={{
         backgroundImage:
-          'url("http://www.domeint.com/templates/project/image/ssddf.jpg")',
+          'url("http://www.domeint.com/templates/project/image/ssddf.webp")',
       }}
     >
       {/* Overlay for readability */}

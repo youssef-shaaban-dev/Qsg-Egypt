@@ -6,18 +6,18 @@ import { useTranslation } from "react-i18next";
 import PageBanner from "../../components/banner/PageBanner";
 import BulletList from "../../components/service/BulletList";
 import { ImageBlock } from "../../components/service/ImageBlock";
-import { applyMeta, lang } from "../../utility/utility";
+import { lang } from "../../utility/utility";
 
-import BGImage from "../../assets/Banner/7.png";
-import BGImageAR from "../../assets/Banner/7ar.jpg";
-import ImageSection1 from "../../assets/inspection/dummy/petrolum.jpg";
-import ImageSection2 from "../../assets/inspection/engineering/40D21C65-780F-4CC8-AB8E-F4655A1E7411-432-0000003804B53918_tmp.jpg";
-import ImageSection3 from "../../assets/inspection/engineering/Picture2.png";
-import ImageSection4 from "../../assets/inspection/food/WhatsApp Image 2025-08-27 at 11.50.01 AM.jpeg";
-import ImageSection5 from "../../assets/inspection/food/WhatsApp Image 2025-08-27 at 11.50.02 AM (1).jpeg";
-import ImageSection6 from "../../assets/inspection/chemicals/6321746674974_.pic.jpg";
-import ImageSection7 from "../../assets/inspection/ships/58f0389c-d6fd-4c0a-bec5-439e5c7945d1.jpg";
-import ImageSection8 from "../../assets/inspection/ships/310520111880.jpg";
+import BGImage from "../../assets/Banner/7.webp";
+import BGImageAR from "../../assets/Banner/7ar.webp";
+import ImageSection1 from "../../assets/inspection/dummy/petrolum.webp";
+import ImageSection2 from "../../assets/inspection/engineering/40D21C65-780F-4CC8-AB8E-F4655A1E7411-432-0000003804B53918_tmp.webp";
+import ImageSection3 from "../../assets/inspection/engineering/Picture2.webp";
+import ImageSection4 from "../../assets/inspection/food/WhatsApp Image 2025-08-27 at 11.50.01 AM.webp";
+import ImageSection5 from "../../assets/inspection/food/WhatsApp Image 2025-08-27 at 11.50.02 AM (1).webp";
+import ImageSection6 from "../../assets/inspection/chemicals/6321746674974_.pic.webp";
+import ImageSection7 from "../../assets/inspection/ships/58f0389c-d6fd-4c0a-bec5-439e5c7945d1.webp";
+import ImageSection8 from "../../assets/inspection/ships/310520111880.webp";
 import { ArabicNumber } from "../../utility/ArabicNumber";
 
 const Inspection: React.FC = () => {
@@ -25,7 +25,6 @@ const Inspection: React.FC = () => {
   const { t } = useTranslation();
 
   useEffect(() => {
-    applyMeta(pathname);
   }, [pathname]);
 
   return (

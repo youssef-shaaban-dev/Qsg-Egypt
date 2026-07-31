@@ -34,7 +34,7 @@ export default function MajorClientsSection({ clients, title }: ClientInterface)
             clients.map((client: Client, idx: number) => {
               // Extract client name from file path if available
               const clientName =
-                client.default.split("/").pop()?.replace(".png", "") || `Client ${idx + 1}`;                
+                client.default.split("/").pop()?.replace(".webp", "") || `Client ${idx + 1}`;                
               return (
                 <motion.div
                   key={idx}

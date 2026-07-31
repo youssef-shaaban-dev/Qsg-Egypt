@@ -1,9 +1,9 @@
 import image1 from '../assets/Staff Photos/mona.webp'
-import image2 from '../assets/Staff Photos/2.png'
-import image3 from '../assets/Staff Photos/staff3.png'
-import image5 from '../assets/Staff Photos/5.png'
-import image6 from '../assets/Staff Photos/6.png'
-import image7 from '../assets/Staff Photos/7.png'
+import image2 from '../assets/Staff Photos/2.webp'
+import image3 from '../assets/Staff Photos/staff3.webp'
+import image5 from '../assets/Staff Photos/5.webp'
+import image6 from '../assets/Staff Photos/6.webp'
+import image7 from '../assets/Staff Photos/7.webp'
 
 export const teamData = [
   {

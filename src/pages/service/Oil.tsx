@@ -6,10 +6,10 @@ import { useTranslation } from "react-i18next";
 import PageBanner from "../../components/banner/PageBanner";
 import BulletList from "../../components/service/BulletList";
 import { ImageBlock } from "../../components/service/ImageBlock";
-import BGImage from '../../assets/Banner/5.png';
-import BGImageAR from '../../assets/Banner/5ar.jpg';
-import ImageSection1 from '../../assets/oil & gas/old.png';
-import { applyMeta, lang } from "../../utility/utility";
+import BGImage from '../../assets/Banner/5.webp';
+import BGImageAR from '../../assets/Banner/5ar.webp';
+import ImageSection1 from '../../assets/oil & gas/old.webp';
+import { lang } from "../../utility/utility";
 
 interface OilGasData {
   introTitle: string;
@@ -21,7 +21,6 @@ const Oil: React.FC = () => {
   const { t } = useTranslation();
 
   useEffect(() => {
-    applyMeta(pathname);
   }, [pathname]);
 
   // Get data from translation JSON

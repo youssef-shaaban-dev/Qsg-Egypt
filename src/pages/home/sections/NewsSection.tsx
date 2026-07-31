@@ -18,7 +18,7 @@ const NewsSection: React.FC = () => {
       className="py-20 bg-cover bg-center"
       style={{
         backgroundImage:
-          "url('http://www.domeint.com/templates/project/image/newss.jpg')",
+          "url('http://www.domeint.com/templates/project/image/newss.webp')",
       }}
       role="region"
       aria-labelledby="news-heading"

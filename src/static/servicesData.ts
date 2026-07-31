@@ -1,7 +1,7 @@
 import type { Service } from "../interfaces/Components";
-import Image4 from '../assets/home/consulting & feasability/Picture1.png';
-import Image3 from '../assets/home/oil & gas/2.jpg';
-import Image2 from '../assets/home/valuation/Pickalbatros-Hotel.png';
+import Image4 from '../assets/home/consulting & feasability/Picture1.webp';
+import Image3 from '../assets/home/oil & gas/2.webp';
+import Image2 from '../assets/home/valuation/Pickalbatros-Hotel.webp';
 import Image1 from '../assets/inspection/ships/Inspecation-01.webp';
 
 export const services: Service[] = [

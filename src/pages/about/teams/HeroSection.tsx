@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import imageAshraf from "../../../assets/Staff Photos/Ashraf-Yassin.png";
+import imageAshraf from "../../../assets/Staff Photos/Ashraf-Yassin.webp";
 import { ArabicNumber } from "../../../utility/ArabicNumber";
 
 const AshrafHero: React.FC = () => {

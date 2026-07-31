@@ -1,7 +1,7 @@
 import type { NewsItem } from "../interfaces/Components";
 
-import News1 from "../assets/news/News-01.png"
-import News2 from "../assets/news/News-02.png"
+import News1 from "../assets/news/News-01.webp"
+import News2 from "../assets/news/News-02.webp"
 
 export const newsData: NewsItem[] = [
     {

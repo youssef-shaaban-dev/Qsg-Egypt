@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { services } from "../../../static/servicesData";
 import ServicesHeader from "../../../components/service/ServicesHeader";
 import ServiceCard from "../../../components/service/ServiceCard";
-import Bg from "../../../assets/Banner/4.png";
+import Bg from "../../../assets/Banner/4.webp";
 
 const ServicesSection: React.FC = () => {
   const { t } = useTranslation();

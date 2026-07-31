@@ -1,7 +1,7 @@
 import React, { Suspense, lazy } from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import Chairman from "../../../assets/Staff Photos/Ashraf-Yassin.png";
+import Chairman from "../../../assets/Staff Photos/Ashraf-Yassin.webp";
 import { ArabicNumber } from "../../../utility/ArabicNumber";
 
 // Lazy-loaded Title
