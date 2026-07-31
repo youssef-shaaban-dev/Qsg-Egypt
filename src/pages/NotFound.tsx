@@ -96,7 +96,7 @@ export default function NotFound({
           <p className="font-semibold text-gold mb-2">
             {t("errorCode")}
           </p>
-          <Link to="/contact" className="hover:underline">
+          <Link to="/contact-us" className="hover:underline">
             {t("contact")}
           </Link>
           <p className="mt-4 text-xs">{t("hint")}</p>

@@ -16,6 +16,10 @@
   RewriteEngine On
   RewriteBase /
 
+  # Redirect old /contact to /contact-us permanently
+  RewriteRule ^contact/?$ /contact-us [R=301,L]
+  RewriteRule ^ar/contact/?$ /ar/contact-us [R=301,L]
+
   RewriteRule ^index\.html$ - [L]
 
   # If the file or directory exists, use it directly
