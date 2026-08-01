@@ -2,53 +2,47 @@ export const pageMetadata = [
   {
     path: "/",
     title: {
-      en: "QSG Egypt - Asset Valuation, Inspection, and Consulting Services",
-      ar: "المجموعة الفنية لخدمات المعاينة والتفتيش الدولى"
+      en: "Asset Valuation & Inspection Services in Egypt | QSG Egypt",
+      ar: "خدمات المعاينة والتفتيش وتقييم الأصول في مصر"
     },
     description: {
-      en: "QSG Egypt offers professional asset valuation, inspection, and consulting services in Cairo and Alexandria, with a trusted reputation since 1997.",
-      ar: "خدمات المعاينة والتفتيش وتقييم الأصول والاستشارات الفنية للشركات والبنوك والتأمين بخبرة منذ 1997 وجودة معتمدة  | المجموعة الفنية لخدمات المعاينة والتفتيش الدولى"
+      en: "QSG Egypt provides asset valuation, inspection, surveying, and consulting services across Egypt, backed by trusted expertise since 1997.",
+      ar: "خدمات المعاينة والتفتيش وتقييم الأصول والاستشارات الفنية للشركات والبنوك وشركات التأمين في مصر بخبرة منذ 1997."
     }
   },
-
-  // --- About ---
   {
     path: "/about-us/the-company",
     title: {
-      en: "Trusted Asset Valuation & Inspection Company in Egypt | QSG Egypt",
-      ar: "خبراء المعاينة وتقييم الأصول | المجموعة الفنية لخدمات المعاينة والتفتيش"
+      en: "Asset Valuation & Inspection Company in Egypt | QSG Egypt",
+      ar: "تقييم الأصول في مصر |المجموعة الفنية للمعاينة والتفتيش"
     },
     description: {
-      en: "QSG Egypt is a leading inspection and surveying company in Egypt, providing asset valuation and consulting services.",
-      ar: "تعرف على المجموعة الفنية لخدمات المعاينة والتفتيش، إحدى الشركات المتخصصة في المعاينة والتفتيش وتقييم الأصول والاستشارات الفنية، بخبرة طويلة في خدمة البنوك والشركات منذ 1997."
+      en: "QSG Egypt is a trusted asset valuation, inspection, and surveying company providing consulting services across Egypt and international markets.",
+      ar: "شركة متخصصة في المعاينة والتفتيش وتقييم الأصول والاستشارات الفنية، وتخدم البنوك والشركات في مصر منذ 1997."
     }
   },
-
   {
     path: "/about-us/our-team",
     title: {
-      en: "Meet Our Expert Team | QSG Egypt",
+      en: "Asset Valuation Experts in Egypt | QSG Egypt",
       ar: "فريق عمل المجموعة الفنية لخدمات المعاينة والتفتيش الدولى"
     },
     description: {
-      en: "Explore our expert team providing trusted asset valuation and consulting services across Egypt.",
+      en: "Meet QSG Egypt’s expert team in asset valuation, inspection, surveying, and consulting, serving clients across Egypt and international markets.",
       ar: "تعرف على فريق الخبراء في المجموعة الفنية لخدمات المعاينة والتفتيش المتخصصين في المعاينة وتقييم الأصول والاستشارات الفنية لخدمة الشركات والبنوك."
     }
   },
-
   {
     path: "/about-us/our-global-representatives",
     title: {
-      en: "Global Representatives of QSG Egypt | International Experts",
-      ar: "وكلاء الشركة | المجموعة الفنية لخدمات المعاينة والتفتيش"
+      en: "QSG Egypt Global Representatives | International Network",
+      ar: "وكلاء المجموعة الفنية لخدمات المعاينة والتفتيش الدولي حول العالم"
     },
     description: {
-      en: "Discover QSG Egypt’s global representatives delivering inspection and consulting services worldwide.",
-      ar: "تعرف على وكلاء الشركة حول العالم للمجموعة الفنية لخدمات المعاينة والتفتيش لتقديم خدمات المعاينة وتقييم الأصول والاستشارات الفنية في مصر وكل دول العالم."
+      en: "Meet QSG Egypt’s global representatives delivering inspection, asset valuation, and consulting services across international markets.",
+      ar: "تعرف على وكلاء المجموعة الفنية لخدمات المعاينة والتفتيش الدولي حول العالم، الذين يدعمون خدمات المعاينة والتفتيش وتقييم الأصول والاستشارات الفنية."
     }
   },
-
-  // --- Accreditation ---
   {
     path: "/accreditations",
     title: {
@@ -56,83 +50,74 @@ export const pageMetadata = [
       ar: "الاعتمادات والشهادات | المجموعة الفنية لخدمات المعاينة والتفتيش"
     },
     description: {
-      en: "Explore QSG Egypt’s accreditations and international certifications ensuring reliable services.",
+      en: "Explore QSG Egypt’s official accreditations and quality certifications supporting trusted, compliant inspection and valuation services.",
       ar: "تعرف على الاعتمادات والشهادات المهنية للمجموعة الفنية لخدمات المعاينة والتفتيش، المعتمدة وفق معايير الجودة الدولية لتقديم خدمات المعاينة وتقييم الأصول."
     }
   },
-
-  // --- Services ---
   {
     path: "/services/inspection-and-expediting",
     title: {
-      en: "Inspection & Expediting Services in Egypt & Worldwide | QSG Egypt",
+      en: "Inspection & Expediting Services in Egypt | QSG Egypt",
       ar: "خدمات الفحص و التفتيش | المجموعة الفنية لخدمات المعاينة والتفتيش"
     },
     description: {
-      en: "Professional inspection and expediting services ensuring quality and compliance.",
-      ar: "نقدم خدمات الفحص والتفتيش للتأكد من جودة المعدات والالتزام بالمواصفات ومواعيد التسليم، والتفتيش على الصادارات والواردات لدعم المشاريع الصناعية والتجارية والبنية التحتية."
+      en: "QSG Egypt provides inspection and expediting for oil, gas, and industrial projects, ensuring quality, compliance, and timely delivery worldwide.",
+      ar: "نقدم خدمات الفحص والتفتيش لضمان جودة المعدات والالتزام بالمواصفات ومواعيد التسليم، وفحص الصادرات والواردات للمشاريع الصناعية والتجارية."
     }
   },
-
   {
     path: "/services/assets-valuation-and-surveying",
     title: {
-      en: "Professional Asset Valuation Services in Egypt | QSG Egypt",
-      ar: "تقييم الأصول والمسح الفني | المجموعة الفنية لخدمات المعاينة والتفتيش"
+      en: "Asset Valuation & Surveying Services in Egypt | QSG Egypt",
+      ar: "تقييم الأصول العقارية والالات والمعدات والبضائع فى مصر"
     },
     description: {
-      en: "Accurate and certified asset valuation services for businesses and investors.",
-      ar: "نقدم خدمات تقييم الأصول والمسح الفني لتحديد القيمة السوقية للمعدات والعقارات والأصول المختلفة بدقة وفق المعايير المهنية لدعم قرارات الاستثمار والتأمين."
+      en: "QSG Egypt provides certified asset valuation and surveying services, helping businesses, investors, and property owners make informed decisions.",
+      ar: "خدمات تقييم الأصول العقارية والالات والمعدات والبضائع فى مصر لتحديد القيمة السوقية للمعدات والعقارات والأصول المختلفة بدقة وفق المعايير المهنية."
     }
   },
-
   {
     path: "/services/oil-gas-and-power-ASME-TPI",
     title: {
-      en: "ASME TPI Oil & Gas Inspection & Equipment Audit",
+      en: "ASME TPI Inspection for Oil, Gas & Power | QSG Egypt",
       ar: "الغاز و البترول والطاقة | المجموعة الفنية لخدمات المعاينة والتفتيش"
     },
     description: {
-      en: "Third-party inspection services for oil, gas, and power sectors ensuring safety and compliance.",
+      en: "ASME TPI inspection and third-party equipment audit services for oil, gas, and power projects in Egypt, ensuring quality, safety, and compliance.",
       ar: "نقدم خدمات المعاينة والتفتيش لقطاع النفط والغاز والطاقة وفق معايير ASME وعمليات التفتيش كطرف ثالث محايد لضمان الجودة والسلامة في المشاريع الصناعية."
     }
   },
-
   {
     path: "/services/feasibility-studies-and-consulting-services",
     title: {
-      en: "Feasibility Studies Services in Egypt | QSG Egypt",
-      ar: "دراسات الجدوى والخدمات الاستشارية | المجموعة الفنية لخدمات المعاينة والتفتيش"
+      en: "Feasibility Studies & Consulting in Egypt | QSG Egypt",
+      ar: "دراسات الجدوى والاستشارات الفنية فى مصر"
     },
     description: {
-      en: "Expert feasibility studies, consulting, and market analysis services.",
-      ar: "نقدم خدمات إعداد دراسات الجدوى والاستشارات الفنية لتقييم المشاريع وتحليل الجوانب المالية والفنية والسوقية ودعم قرارات الاستثمار للشركات والمؤسسات."
+      en: "QSG Egypt delivers feasibility studies, market analysis, and business consulting for informed investment and financial decisions.",
+      ar: "نقدم خدمات إعداد دراسات الجدوى والاستشارات الفنية، وتحليل الجوانب المالية والفنية والسوقية لدعم قرارات الاستثمار للشركات والمؤسسات."
     }
   },
-
-  // --- Clients ---
   {
     path: "/major-clients",
     title: {
-      en: "Major Clients of QSG Egypt - Trusted Valuation & Inspection",
-      ar: "عملاؤنا | المجموعة الفنية لخدمات المعاينة والتفتيش"
+      en: "Major Clients of QSG Egypt | Asset Valuation & Inspection",
+      ar: "أبرز عملاء المجموعة الفنية لخدمات المعاينة وتقييم الأصول"
     },
     description: {
-      en: "Discover major clients of QSG Egypt and our trusted track record.",
-      ar: "تعرف على أبرز عملاء المجموعة الفنية لخدمات المعاينة والتفتيش من البنوك وشركات التأمين والمؤسسات الصناعية التي تثق بخدمات المعاينة وتقييم الأصول."
+      en: "Explore QSG Egypt’s major clients and proven track record in asset valuation, inspection, and consulting services since 1997.",
+      ar: "تعرف على أبرز عملاء المجموعة الفنية من البنوك وشركات التأمين والمؤسسات الصناعية التي تعتمد على خدمات المعاينة وتقييم الأصول."
     }
   },
-
-  // --- Contact ---
   {
     path: "/contact-us",
     title: {
-      en: "Contact QSG Egypt | Get Support & Inquire About Our Services",
-      ar: "تواصل معنا | المجموعة الفنية لخدمات المعاينة والتفتيش الدولى"
+      en: "Contact QSG Egypt | Service Inquiries & Support",
+      ar: "تواصل معنا | المجموعة الفنية لخدمات المعاينة والتفتيش الدولي"
     },
     description: {
-      en: "Contact QSG Egypt for inquiries, support, and service requests.",
-      ar: "تواصل مع المجموعة الفنية لخدمات المعاينة والتفتيش للحصول على خدمات المعاينة والتفتيش الدولى وتقييم الأصول والاستشارات الفنية للشركات والمؤسسات في مصر وحول العالم."
+      en: "Contact QSG Egypt for inquiries about inspection, asset valuation, surveying, and consulting services. Get prompt, professional support.",
+      ar: "تواصل مع المجموعة الفنية للحصول على خدمات المعاينة والتفتيش وتقييم الأصول والاستشارات الفنية للشركات والمؤسسات في مصر وحول العالم."
     }
   }
 ];

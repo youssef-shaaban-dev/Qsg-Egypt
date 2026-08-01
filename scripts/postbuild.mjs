@@ -3,7 +3,6 @@ import express from 'express';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { SitemapStream, streamToPromise } from 'sitemap';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -33,56 +32,7 @@ const allRoutes = coreRoutes.flatMap(route => [
   `/ar${route === '/' ? '' : route}`
 ]);
 
-async function generateSitemap() {
-  console.log('Generating sitemap...');
-  const smStream = new SitemapStream({ hostname: BASE_URL });
 
-  coreRoutes.forEach(route => {
-    // Determine English and Arabic URLs
-    const enUrl = route;
-    const arUrl = `/ar${route === '/' ? '' : route}`;
-    
-    // Add default (en) route with hreflang links
-    smStream.write({
-      url: enUrl,
-      changefreq: 'weekly',
-      priority: route === '/' ? 1.0 : 0.8,
-      links: [
-        { lang: 'en', url: enUrl },
-        { lang: 'ar', url: arUrl },
-        { lang: 'x-default', url: enUrl }
-      ]
-    });
-
-    // Add Arabic route with hreflang links
-    smStream.write({
-      url: arUrl,
-      changefreq: 'weekly',
-      priority: route === '/' ? 1.0 : 0.8,
-      links: [
-        { lang: 'en', url: enUrl },
-        { lang: 'ar', url: arUrl },
-        { lang: 'x-default', url: enUrl }
-      ]
-    });
-  });
-
-  smStream.end();
-  const sitemapBuffer = await streamToPromise(smStream);
-  fs.writeFileSync(path.join(DIST_DIR, 'sitemap.xml'), sitemapBuffer.toString());
-  console.log('Sitemap successfully created at dist/sitemap.xml');
-}
-
-function generateRobotsTxt() {
-  console.log('Generating robots.txt...');
-  const robotsTxt = `User-agent: *
-Allow: /
-
-Sitemap: ${BASE_URL}/sitemap.xml
-`;
-  fs.writeFileSync(path.join(DIST_DIR, 'robots.txt'), robotsTxt);
-  console.log('robots.txt successfully created at dist/robots.txt');
-}
 
 async function prerenderPages() {
   console.log('Starting pre-rendering process...');
@@ -138,8 +88,7 @@ async function prerenderPages() {
 
 async function run() {
   try {
-    generateRobotsTxt();
-    await generateSitemap();
+
     await prerenderPages();
     console.log('Post-build SEO generation completed successfully!');
   } catch (err) {
