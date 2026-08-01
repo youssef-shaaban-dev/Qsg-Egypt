@@ -70,12 +70,12 @@ const ServiceCard: React.FC<SeriveProps> = ({ service, index }) => {
 
       {/* Card Footer */}
       <div className="bg-white py-4 text-center">
-        <h4
+        <p
           id={`service-footer-title-${index}`}
-          className="text-dark-red font-semibold text-[14px]"
+          className="text-dark-red font-semibold text-[14px] m-0"
         >
           {t(`services.${service.key}.title`)}
-        </h4>
+        </p>
       </div>
     </motion.article>
   );

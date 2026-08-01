@@ -21,7 +21,7 @@ export default function Logo() {
       {/* 🌙 Dark Mode Logo */}
       <img
         src={SiteLogo}
-        alt=""
+        alt="QSG Egypt Logo Dark Mode"
         className="hidden dark:block h-30 w-auto"
         aria-hidden="true"
       />
