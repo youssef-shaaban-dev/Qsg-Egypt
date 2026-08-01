@@ -24,8 +24,8 @@ export default function Seo({ title, description, canonicalPath, ogImage }: SeoP
   return (
     <Helmet>
       <html lang={currentLang} dir={currentLang === 'ar' ? 'rtl' : 'ltr'} />
-      <title>{title} | QSG Egypt</title>
-      <meta name="title" content={`${title} | QSG Egypt`} />
+      <title>{`${title}`}</title>
+      <meta name="title" content={title} />
       <meta name="description" content={description} />
 
       {/* Canonical URL */}
@@ -39,14 +39,14 @@ export default function Seo({ title, description, canonicalPath, ogImage }: SeoP
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
       <meta property="og:url" content={currentUrl} />
-      <meta property="og:title" content={`${title} | QSG Egypt`} />
+      <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       {ogImage && <meta property="og:image" content={`${BASE_URL}${ogImage}`} />}
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content={currentUrl} />
-      <meta property="twitter:title" content={`${title} | QSG Egypt`} />
+      <meta property="twitter:title" content={title} />
       <meta property="twitter:description" content={description} />
       {ogImage && <meta property="twitter:image" content={`${BASE_URL}${ogImage}`} />}
     </Helmet>
