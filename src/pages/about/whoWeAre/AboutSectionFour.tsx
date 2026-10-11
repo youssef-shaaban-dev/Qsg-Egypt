@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { sectionVariants } from "../../../components/appVariants";
-import Logo from "../../../assets/logo-qsg-1.webp";
+import Logo from "../../../assets/qsg-logo-transparent.webp";
 import { useTranslation } from "react-i18next";
 import { ArabicNumber } from "../../../utility/ArabicNumber";
 

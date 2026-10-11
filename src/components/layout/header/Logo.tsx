@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import SiteLogo from "../../../assets/logo-qsg-1.webp";
+import SiteLogo from "../../../assets/qsg-logo-transparent.webp";
 import { localizePath } from "../../../utility/utility";
 import i18n from "../../../i18n";
 

@@ -4,7 +4,7 @@ import FooterContact from "./FooterContact";
 import FooterBottom from "./FooterBottom";
 import ScrollToTopButton from "./ScrollToTopButton";
 import { companyLinks, servicesLinks } from "../../../static/footerData";
-import QSGLOGO from "../../../assets/logo-qsg-1.webp";
+import QSGLOGO from "../../../assets/qsg-logo-transparent.webp";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
