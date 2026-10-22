@@ -16,8 +16,8 @@ export default function Seo({ title, description, canonicalPath, ogImage }: SeoP
 
   const normalizedPath = canonicalPath.startsWith('/') ? canonicalPath : `/${canonicalPath}`;
   
-  const enUrl = `${BASE_URL}${normalizedPath === '/' ? '' : normalizedPath}`;
-  const arUrl = `${BASE_URL}/ar${normalizedPath === '/' ? '' : normalizedPath}`;
+  const enUrl = `${BASE_URL}${normalizedPath === '/' ? '/' : normalizedPath}`;
+  const arUrl = `${BASE_URL}/ar${normalizedPath === '/' ? '/' : normalizedPath}`;
   
   const currentUrl = currentLang === 'ar' ? arUrl : enUrl;
 

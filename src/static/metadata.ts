@@ -6,8 +6,8 @@ export const pageMetadata = [
       ar: "خدمات المعاينة والتفتيش وتقييم الأصول في مصر"
     },
     description: {
-      en: "QSG Egypt provides asset valuation, inspection, surveying, and consulting services across Egypt, backed by trusted expertise since 1997.",
-      ar: "خدمات المعاينة والتفتيش وتقييم الأصول والاستشارات الفنية للشركات والبنوك وشركات التأمين في مصر بخبرة منذ 1997."
+      en: "QSG Egypt provides asset valuation, inspection, surveying, and consulting services across Egypt, backed by trusted expertise since 1997",
+      ar: "خدمات المعاينة والتفتيش وتقييم الأصول والاستشارات الفنية للشركات والبنوك وشركات التأمين في مصر بخبرة منذ 1997"
     }
   },
   {
