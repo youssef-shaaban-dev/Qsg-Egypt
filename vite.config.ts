@@ -38,7 +38,7 @@ export default defineConfig({
           framer: ['framer-motion'],
           lucide: ['lucide-react'],
           i18n: ['i18next', 'react-i18next', 'i18next-browser-languagedetector'],
-          slick: ['react-slick', 'slick-carousel'],
+          slick: ['react-slick'],
         },
         
         entryFileNames: 'assets/[name]-v2-[hash].js',

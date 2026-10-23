@@ -1,5 +1,5 @@
 import { StrictMode } from 'react'
-import { createRoot, hydrateRoot } from 'react-dom/client'
+import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
 import { BrowserRouter } from 'react-router-dom'
 import { HelmetProvider } from 'react-helmet-async'
@@ -19,10 +19,4 @@ const app = (
   </StrictMode>
 );
 
-// If the root element has children, it means the HTML was pre-rendered (SSR/SSG).
-// Use hydrateRoot to attach event listeners without destroying the DOM.
-if (rootElement.hasChildNodes()) {
-  hydrateRoot(rootElement, app);
-} else {
-  createRoot(rootElement).render(app);
-}
+createRoot(rootElement).render(app);
